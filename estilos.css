@@ -1,13 +1,14 @@
+.teste {
+    border: 1px solid black;
+    font-size: 18pt;
+    color: blue;
+}
+
 p {
     border: 1px solid black;
     color: blue;
 }
-button {
-    background-color: red;
-}
-#teste {
-    color: green;
-}
+
 .btnCancelar {
     background-color: #e0e0e0;
     border: 1px solid black; 
