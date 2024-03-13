@@ -1,0 +1,38 @@
+p {
+    border: 1px solid black;
+    color: blue;
+}
+button {
+    background-color: red;
+}
+#teste {
+    color: green;
+}
+.btnCancelar {
+    background-color: #e0e0e0;
+    border: 1px solid black; 
+    padding: 2px 6px 2px 6px; 
+    border-radius: 5px; 
+    margin-right: 6px;
+    cursor: pointer;
+}
+.btnCancelar:hover {
+    background-color: cadetblue;
+    padding: 5px 25px 5px 25px;
+}
+.btnErro {
+    background-color: red;
+    border: 1px solid #400000; 
+    padding: 2px 6px 2px 6px; 
+    border-radius: 5px; 
+    margin-right: 6px;
+    font-size: 16pt;
+}
+.btnOk {
+    background-color: green;
+    border: 1px solid #00aa00; 
+    padding: 2px 6px 2px 6px; 
+    border-radius: 5px; 
+    margin-right: 6px;
+    font-size: 12pt;
+}

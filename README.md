@@ -1,9 +1,5 @@
 # Aula 28/02/2024 - UDWMJ
+# Aula 12/03/2024 - UDWMJ - Continuação em Lab CSS
 
-<h2>oi gente</h2>
+## Anotações
 
-## oi gente
-
-### oi gente nivel 3
-
-skfjsklfjs fsfjsklfjsklfjs fskfjdklfjdklfjdf
