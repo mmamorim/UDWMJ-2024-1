@@ -22,7 +22,7 @@ console.log("Nota final:",notaFinal);
 if(notaFinal >= 70) {
         alert("APROVADO!")
 } else {
-    if(notaFinal < 3) {
+    if(notaFinal < 30) {
         alert("REPROVADO")
     } else {
         alert("AI")
