@@ -26,3 +26,11 @@ Objetos
 Promisses (promessas)
 
 Google Fonts [https://fonts.google.com/](https://fonts.google.com/)
+
+```mermaid
+graph TD;
+    A-->B;
+    A-->C;
+    B-->D;
+    C-->D;
+```
