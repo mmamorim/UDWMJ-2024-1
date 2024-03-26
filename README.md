@@ -16,3 +16,11 @@ abaixo antes do fim do body
 ~~~
 
 # Aula 20/03/2024 - UDWMJ - Javascript
+Strings
+Funções
+
+# Aula 26/03/2024 - UDWMJ - Javascript
+Callbacks
+Modulos
+Objetos
+Promisses (promessas)
