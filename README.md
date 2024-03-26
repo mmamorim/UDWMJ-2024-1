@@ -24,3 +24,5 @@ Callbacks
 Modulos
 Objetos
 Promisses (promessas)
+
+Google Fonts [https://fonts.google.com/](https://fonts.google.com/)
