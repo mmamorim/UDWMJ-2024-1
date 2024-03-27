@@ -1,7 +1,7 @@
 link deste repositório:
 ## https://github.com/mmamorim/UDWMJ-2040-1
 
-<img src="/assets/dev.png" width="100%" />
+<img src="/assets/dev.png" width="50%" />
 
 # Aula 28/02/2024 - UDWMJ
 # Aula 12/03/2024 - UDWMJ - Continuação em Lab CSS
