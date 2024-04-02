@@ -27,8 +27,8 @@ console.log("algo");
 console.log("algo");
 
 
-queroPizza().then(() => {
-
-}).catch(() => {
-    
-})
+//queroPizza().then(() => {
+//
+//}).catch(() => {
+//    
+//})
