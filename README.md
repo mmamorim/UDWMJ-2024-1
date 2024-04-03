@@ -28,4 +28,8 @@ Javascript: Objetos, Relógio
 #### Aula 02/04/2024 - UDWMJ - Javascript
 [Aula 02/04/2024](/Aula0204/) Javascript
 Promisses (promessas)
+Fetch (fazendo requisições HTTP)
 
+#### Aula 03/04/2024 - UDWMJ - Javascript
+[Aula 03/04/2024](/Aula0304/) Javascript
+VUE (Frameqork Javascript)
