@@ -1,3 +1,6 @@
+import todolist from "./todolist.js"
+
+console.log("todolist",todolist);
 
 const app = {
     components: {},
@@ -5,16 +8,21 @@ const app = {
     <div class="flex gap-1">
         <div class="border rounded p-1 w-80">
             lista de tarefas    
-            <div class="flex items-center gap-1 text-xs border p-1">
-                <div>01</div>
+            <div v-for="(elem,index) in lista" class="flex items-center gap-1 text-xs border p-1">
+                <div>{{index}}</div>
                 <div class="px-1">
-                    Mussum Ipsum, cacilds vidis litro abertis. Mauris nec dolor in eros commodo tempor.
+                    {{ elem.textDescription }}
+                </div>
+                <div v-if="elem.done" class="w-10 text-center">
+                    <span class="text-green-700">concluído</span>
+                    <img @click="alterar(index)" src="./assets/done.png" class="w-6" alt="">
+                </div>
+                <div v-if="!elem.done">
+                    <span class="text-red-700">NÃO</span>
+                    <img @click="alterar(index)" src="./assets/not-done.png" class="w-6" alt="">
                 </div>
                 <div>
-                    <img src="./assets/not-done.png" class="w-10" alt="">
-                </div>
-                <div>
-                    <img src="./assets/close.png" class="w-10" alt="">
+                    <img @click="remover(index)" src="./assets/close.png" class="w-6" alt="">
                 </div>
             </div>        
         </div>
@@ -34,16 +42,36 @@ const app = {
     data() {
         return {
             textDescription: "sdsdsdsdsd",
-            done: false
+            done: false,
+            lista: []
         }
+    },
+    mounted() {
+        this.lista = todolist.tasks
+        console.log("todolist.tasks",todolist.tasks);
     },
     methods: {
 
         adicionar() {
             console.log("adicionar");
-            console.log("textDescription",this.textDescription);
-            console.log("done",this.done);
+            todolist.add(this.textDescription,this.done)
+            console.log("todolist.tasks",todolist.tasks);
+            this.lista = todolist.tasks
+            this.$forceUpdate()
+        },
 
+        remover(index) {
+            console.log("remover",index);
+            todolist.remove(index)
+            this.lista = todolist.tasks
+            this.$forceUpdate()
+        },
+
+        alterar(index) {
+            console.log("alterar",index);
+            todolist.tasks[index].done = !todolist.tasks[index].done
+            this.lista = todolist.tasks
+            this.$forceUpdate()
         }
     }
 }

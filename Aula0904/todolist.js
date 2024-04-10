@@ -17,6 +17,12 @@ const todolist = {
         this.tasks.push(obj)
         let objtext = JSON.stringify(this.tasks)
         localStorage.setItem("myTasks",objtext)
+    },
+
+    remove(index) {
+        this.tasks.splice(index,1)
+        let objtext = JSON.stringify(this.tasks)
+        localStorage.setItem("myTasks",objtext)
     }
 }
 
