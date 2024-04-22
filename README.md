@@ -6,6 +6,7 @@ link deste repositório:
 # UC - Usabilidade, desenvolvimento web, mobile e jogos
 
 ➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖
+
 **TERÇA 23/04 e QUARTA 24/04** estarei em treinamento em Brasília (INEP - ENADE) e **NÃO ESTAREI LECIONANDO (NÃO HAVERÁ AULA)**.
 Deixo uma atividade para vocês praticarem nestes dias. 
 ### 💥 ATIVIDADE PARA OS DIAS TERÇA 23/04 e QUARTA 24/04 
@@ -14,6 +15,7 @@ Realizar o tutorial acessando o link: [https://pt.vuejs.org/tutorial/#step-1](ht
 
 Em preferência de API: Não selecionar composição e Não selecionar SFC, conforme imagem abaixo.  
 <img src="/assets/pref.png" width="50%" />
+
 ➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖
 
 
