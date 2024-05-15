@@ -5,20 +5,13 @@ link deste repositório:
 
 # UC - Usabilidade, desenvolvimento web, mobile e jogos
 
-➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖
-
-Aulas de Usabilidade: 
+### Aulas de Usabilidade: 
 [Pasta Usabilidade](/Usabilidade/) Textos e Material
 
-➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖
-
-➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖
-
-Tutorial Vue: [https://pt.vuejs.org/tutorial/#step-1](https://pt.vuejs.org/tutorial/#step-1)
+### Tutorial Vue: 
+[https://pt.vuejs.org/tutorial/#step-1](https://pt.vuejs.org/tutorial/#step-1)
 Em preferência de API: Não selecionar composição e Não selecionar SFC, conforme imagem abaixo.  
 <img src="/assets/pref.png" width="50%" />
-
-➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖
 
 
 #### Aula 12/03/2024 - UDWMJ - Javascript
